@@ -8,67 +8,64 @@ light blue: #1c5380
 *::after{
   box-sizing: border-box;
 }
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+html{
   background: white url("../images/bgtile.png") repeat-x;
 }
-html{
-  display: block;
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 900px;
+  margin: 90px auto;
 }
 main{
-  background: url("../images/frame.png");
-  padding: 5px;
+  background: transparent url("../images/frame.png") no-repeat;
+  padding: 2%;
+  /*margin: auto;*/
 }
-.topc{
-  background-color: #436E8E;
-  position: absolute;
-  height:100px;
-  width: 600px;
-  z-index: -1;
-  top: 0%;
-}
+
 ul{
   list-style: none;
-  display: inline-block;
-  width: 68%;
-  height: 100px;
-  position: relative;
-  top: 100px;
-  margin-left: 18%;
+  float: left;
+  margin-top: 5%;
 }
 li{
-  width: 10%;
-  float:left;
+  display: inline-block;
 }
-.topb{
-background-color: #F6F7F9;
-display: block;
-height:60%;
-width: 100%;
-/*z-index: -1;*/
-
+h1{
+  color: #06365f;
+  width: 70%;
+  margin-left: 5%;
 }
 aside{
-  display: inline-block;
-  float: left;
-  width: 25%;
-  position: relative;
-  top:100px;
-  margin: 0 6%;
+  float:left;
+  width: 30%;
 }
-aside img{
+main p{
+  margin: 10px 20px;
+}
+
+.rside{
+  float: right;
+  width: 60%;
+  padding: 2%;
+}
+.instalogin{
+  display: inline-block;
   width: 100%;
 }
-.rside{
-  display: inline-block;
+.instalogin span{
+  width: 30%;
   float: right;
+  line-height: 1.5;
+}
+.instalogin > img{
   width: 50%;
-  position: relative;
-  top: 100px;
-  margin: 0 6%;
+  float: left;
 }
 .ul{
   width: 100%;
-  position: relative;
+  margin-top: 50px;
+}
+.an-iphone{
+  display: inline-block;
+  padding-left: 50px;
 }
