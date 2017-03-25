@@ -59,7 +59,10 @@ main p{
 .instalogin span{
   width: 30%;
   float: right;
-  line-height: 1.5;
+  line-height: 4.4;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
 }
 .instalogin > img{
   width: 56%;
@@ -76,4 +79,14 @@ main p{
 }
 .copyright{
   color: grey;
+}
+span{
+  background-color: #688FAA;
+  padding-left:40px;
+  border-radius: 3px;
+  border: 1px solid #06365f;
+}
+span img{
+  width: 16%;
+  padding-top: 5px;
 }
